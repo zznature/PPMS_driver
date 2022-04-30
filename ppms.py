@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
-# Referring to ppms.py in the PyGMI
+# Referring to PPMS.py in the PyGMI
 # To work compatibly with PyMeasure.
 # The ctypes library includes datatypes for passing data to DLLs.
 # For instance, c_int to pass integer pointers.
 
+# Modify the file path in line 108 of ppms.dll to meet the demands.
+
 import ctypes
 import os
-import re
+import re #Regular expression operations
 import time
 import subprocess
 print(__file__)
